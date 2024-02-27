@@ -1,0 +1,144 @@
+.headerS {
+    background-color: black;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(39, 38, 38);
+}
+
+.Logo {
+   padding: 5px;
+   align-items: center;
+}
+
+.inicio {
+    background-image: linear-gradient(to right, rgb(83, 19, 187), rgba(56, 114, 190, 0.815));
+    border: none; 
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 12px; 
+    margin-right: 1px; 
+    padding: 10px 15px; 
+    transition-duration: 0.4s; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.inicio:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.botons {
+    background-image: linear-gradient(to right, rgb(29, 43, 168), rgba(56, 114, 190, 0.815));
+    border: none; 
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 12px; 
+    margin-right: 1px; 
+    padding: 10px 15px; 
+    transition-duration: 0.4s; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    font-size: 20px;  
+    margin-right: 22px;
+    height: 35px;
+    width: 90px;
+}
+
+.containere {
+    background-image: linear-gradient(to right, rgb(84, 96, 207), rgba(93, 192, 118, 0.815), rgb(134, 211, 224));
+    width: auto;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 12px; 
+    display: table;
+}
+
+.rImage {
+    width: auto;
+    height: 250px;
+    float: right;
+    border-radius: 4px; 
+}
+
+.tituloEmpezar {
+    padding: 0px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.815));
+    float: left;
+    margin-left: 10px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.botonTry {
+    background-image: linear-gradient(to right, rgb(19, 74, 119), rgba(56, 114, 190, 0.815));
+    border: none; 
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+    text-decoration: none; 
+    display: block;
+    font-size: 12px; 
+    padding: 10px 15px; 
+    transition-duration: 0.4s; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    width: 80px;
+    height: 48px;
+    position : relative;
+    top: 60px;
+    right: 410px;
+    display: inline-block;
+}
+
+.tituloEmpezar2 {
+    padding: 0px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.815));
+    float: left;
+    margin-left: 10px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    margin-top: 47px;
+
+}
+
+span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background-color: transparent;
+    border-left: 1px solid #000;
+}
+
+
+
+
