@@ -1,0 +1,15 @@
+.headerPanel {
+        background-color: black;
+        display: flex;
+        height: 60px;
+        align-items: center;
+        justify-content: space-between; 
+}
+body {
+    margin: 0;
+    background-color: rgb(39, 38, 38);
+}
+.Logo {
+    padding: 5px;
+    align-items: center;
+ }
